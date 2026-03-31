@@ -37,7 +37,7 @@ function App() {
   return (
     <AuthProvider>
       <CategoryProvider>
-        <BrowserRouter basename="/finance/">
+        <BrowserRouter>
           <AppRoutes />
         </BrowserRouter>
       </CategoryProvider>

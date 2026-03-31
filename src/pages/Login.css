@@ -1,0 +1,68 @@
+.login-container {
+  display: flex;
+  min-height: 100vh;
+  background-color: var(--background);
+}
+
+.login-visual-section {
+  display: none;
+  flex: 1;
+  background: linear-gradient(135deg, rgba(148, 83, 247, 0.1), rgba(0, 0, 0, 0));
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid var(--border);
+}
+
+.login-form-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 400px;
+}
+
+.brand-hero {
+  text-align: center;
+}
+
+.brand-icons {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.brand-hero h1 {
+  font-size: 3rem;
+  background: linear-gradient(135deg, #fff, var(--primary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0.5rem;
+}
+
+.brand-hero p {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+}
+
+.error-banner {
+  background-color: rgba(239, 68, 68, 0.1);
+  border-left: 4px solid var(--danger);
+  color: #F87171;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  font-size: 0.875rem;
+}
+
+@media (min-width: 768px) {
+  .login-visual-section {
+    display: flex;
+  }
+}

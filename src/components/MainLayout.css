@@ -17,21 +17,15 @@
 }
 
 .sidebar-brand {
-  padding: 2rem;
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  font-size: 1.25rem;
+  padding: 2.5rem 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: var(--primary);
   letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
 
-.sidebar-logo {
-  width: 32px;
-  height: 32px;
-  object-fit: contain;
-}
+
 
 .sidebar-nav {
   display: flex;

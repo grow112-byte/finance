@@ -41,8 +41,10 @@ export default function Login() {
     <div className="login-container">
       <div className="login-visual-section">
         <div className="brand-hero animate-fade-in">
-          <div className="brand-logo-container">
-            <img src="/logo.png" alt="Finance Logo" className="login-hero-logo" />
+          <div className="hero-icons">
+            <BarChart className="hero-icon" size={32} />
+            <Wallet className="hero-icon" size={48} />
+            <PieChart className="hero-icon" size={32} />
           </div>
           <h1>Finance Tracker</h1>
           <p>Online. Fast. Professional.</p>

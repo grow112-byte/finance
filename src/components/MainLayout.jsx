@@ -16,7 +16,6 @@ export default function MainLayout({ children }) {
       {/* Sidebar for Desktop */}
       <aside className="sidebar">
         <div className="sidebar-brand">
-          <img src="/logo.png" alt="Finance Logo" className="sidebar-logo" />
           <span>Finance Web</span>
         </div>
         <nav className="sidebar-nav">
